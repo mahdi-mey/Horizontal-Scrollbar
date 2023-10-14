@@ -5,6 +5,8 @@
 }
 body{
     font-family: sans-serif;
+    background-color: #343434;
+    color: #eee;
 
 }
 .header-txt{
@@ -13,10 +15,34 @@ body{
 }
 section{
     height: 100vh;
-    outline: 2px solid red;
     font-size: clamp(20px, 20vw, 80px);
 
     /* aligning text to center */
     display: grid;
     place-content: center;
+}
+
+section:nth-child(1){
+    background-color: #47245b;
+}
+section:nth-child(2){
+    background-color: #483b1a;
+}
+section:nth-child(3){
+    background-color: #164851;
+}
+section:nth-child(4){
+    background-color: #15481a;
+}
+section:nth-child(5){
+    background-color: #162f47;
+}
+.page-progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7px;
+    background: linear-gradient(to right, #b33bfd, #36deff);
+    box-shadow: 0px 10px 30px 0px #365bff;
+    border-radius: 0 20px 20px 0;
 }
