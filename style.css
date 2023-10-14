@@ -3,3 +3,20 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: sans-serif;
+
+}
+.header-txt{
+    text-align: center;
+    margin-block: 3rem;
+}
+section{
+    height: 100vh;
+    outline: 2px solid red;
+    font-size: clamp(20px, 20vw, 80px);
+
+    /* aligning text to center */
+    display: grid;
+    place-content: center;
+}
