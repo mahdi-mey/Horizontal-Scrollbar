@@ -5,37 +5,27 @@
 }
 body{
     font-family: sans-serif;
-    background-color: #343434;
+    background-color: hsl(0, 0%, 10%);
     color: #eee;
 
 }
 .header-txt{
     text-align: center;
     margin-block: 3rem;
+    font-size: clapm(20px, 8vw, 60px);
 }
 section{
     height: 100vh;
-    font-size: clamp(20px, 20vw, 80px);
+    font-size: clamp(20px, 15vw, 50px);
+    padding: clamp(20px, 5vw, 80px);
+    text-align: center;
 
     /* aligning text to center */
     display: grid;
     place-content: center;
 }
-
-section:nth-child(1){
-    background-color: #47245b;
-}
-section:nth-child(2){
-    background-color: #483b1a;
-}
-section:nth-child(3){
-    background-color: #164851;
-}
-section:nth-child(4){
-    background-color: #15481a;
-}
-section:nth-child(5){
-    background-color: #162f47;
+section p{
+    white-space: pre;
 }
 .page-progress{
     position: fixed;
